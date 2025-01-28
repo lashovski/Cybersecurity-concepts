@@ -1,0 +1,4 @@
+Every time when we will use Man in The middle software or attack we have to enable ip forwarding
+command: --- echo 1 > /proc/sys/net/ipv4/ip_forward
+
+execution python (program_name.py) -t (Target IP) -g (Gateway IP)
