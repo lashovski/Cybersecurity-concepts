@@ -2,3 +2,7 @@ Every time when we will use Man in The middle software or attack we have to enab
 command: --- echo 1 > /proc/sys/net/ipv4/ip_forward
 
 execution python (program_name.py) -t (Target IP) -g (Gateway IP)
+
+Note that if the target uses network with strong firewall it may be difficult and you shoud modify your attack!
+
+Good luck! :)
